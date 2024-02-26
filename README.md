@@ -19,6 +19,10 @@ docker compose up couriertracking
 It will be started on port 8080. Although it is not the best way to do it, I also added a CommandLineRunner to populate the database with some data.
 It read stores.json and populates the store table with it. Also, sends several request for courier logs.
 
+## Postman
+
+Postman collection can be found under the resources.
+
 ## Assumptions
 
 * Courier flow is not implemented. It is assumed that there is a courier service that sends logs to the system. 
