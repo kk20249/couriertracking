@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "afdd41b3-82f1-429e-be71-d0bfeca6c424",
+		"name": "couriertracking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33217278"
+	},
+	"item": [
+		{
+			"name": "totalTravelDistanceByCourierId",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "trackCourierLocation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "courierId",
+			"value": "123"
+		}
+	]
+}

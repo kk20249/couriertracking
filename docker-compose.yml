@@ -1,0 +1,8 @@
+version: '3'
+services:
+  couriertracking:
+    container_name: couriertracking
+    build: .
+    image: couriertracking:latest
+    ports:
+      - "8080:8080"
